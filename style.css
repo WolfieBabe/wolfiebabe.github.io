@@ -1,0 +1,62 @@
+#top {
+  background-color: #d5c7ed;
+  text-align: center;
+  
+}
+header {
+  color: navy;
+  background-color: #d5c7ed;
+  font-size: 4vw;
+  text-align: center;
+  
+}
+ul {
+  background-color: #d5c7ed;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.4vw;
+}
+li {
+  display: inline;
+  padding: .5em;
+  font-size: 2em;
+}
+
+#main {
+  text-align:center;
+  align-content: center;
+}
+h6 {
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  margin: .5em;
+}
+#orbitals {
+  resize: .8em;
+  margin: 1em
+  text-align: center;
+}
+
+/* images */
+img {
+  text-align: center; 
+  
+}
+.port {
+  width: 50%;
+  height: auto;
+}
+#FL_1 {
+  border: 20px white solid;
+  width: 100vw;
+  height: 100vh;
+}
+/* nav bar*/
+
+
+body {
+ background-color: #ece6f7;
+}
