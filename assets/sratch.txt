@@ -6,11 +6,16 @@ Citations
 
 Portfolio Placeholders
   <div>
-     <p>Lobortis id in phasellus. Elit ridiculus fusce sapien donec elementum nisi lacinia aliquam. Penatibus erat fusce neque nibh mi blandit. Senectus litora potenti dui pellentesque urna taciti lectus elementum urna porta magnis morbi. Platea dictum pretium a laoreet ut torquent, diam scelerisque blandit dapibus curae; laoreet! Aptent euismod auctor sagittis egestas ac pulvinar duis hac lacinia feugiat habitant. Sollicitudin taciti primis justo facilisis augue donec fermentum in dui leo venenatis nulla. Massa cubilia sociosqu etiam non vestibulum suscipit pulvinar. Duis nisl velit netus ut nostra sem.</p>
-     <img class="port" src="assets/Placeholder_view_vector.png">
+    <h1>HEADER HERE</h1>
+
+    <p>Lobortis id in phasellus. Elit ridiculus fusce sapien donec elementum nisi lacinia aliquam. Penatibus erat fusce neque nibh mi blandit. Senectus litora potenti dui pellentesque urna taciti lectus elementum urna porta magnis morbi. Platea dictum pretium a laoreet ut torquent, diam scelerisque blandit dapibus curae; laoreet! Aptent euismod auctor sagittis egestas ac pulvinar duis hac lacinia feugiat habitant. Sollicitudin taciti primis justo facilisis augue donec fermentum in dui leo venenatis nulla. Massa cubilia sociosqu etiam non vestibulum suscipit pulvinar. Duis nisl velit netus ut nostra sem.</p>
+
+    <img class="port" src="assets/Placeholder_view_vector.png">
   </div>
 
   <div>
+    <h1>HEADER HERE</h1>
+
     <p>Lobortis id in phasellus. Elit ridiculus fusce sapien donec elementum nisi lacinia aliquam. Penatibus erat fusce neque nibh mi blandit. Senectus litora potenti dui pellentesque urna taciti lectus elementum urna porta magnis morbi. Platea dictum pretium a laoreet ut torquent, diam scelerisque blandit dapibus curae; laoreet! Aptent euismod auctor sagittis egestas ac pulvinar duis hac lacinia feugiat habitant. Sollicitudin taciti primis justo facilisis augue donec fermentum in dui leo venenatis nulla. Massa cubilia sociosqu etiam non vestibulum suscipit pulvinar. Duis nisl velit netus ut nostra sem.</p>
 
     <iframe id="IF_NUM" src="about:blank" title="TITLE HERE" width="1000" height="400">
