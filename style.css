@@ -57,11 +57,17 @@ img {
 }
 /* nav bar*/
 
-
 body {
  background-color: #ece6f7;
 }
+
 #top ul {
  position: relative;
  right: 1.5vw;
+}
+
+/*Social Media*/
+
+#socialMedia {
+  font-size: 3vw;
 }
