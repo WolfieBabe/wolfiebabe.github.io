@@ -3,26 +3,28 @@ title {
 }
 
 #top {
-  background-color: #d5c7ed;
+  background-color: #ebdbff;
   text-align: center;
   
 }
 header {
-  color: navy;
-  background-color: #d5c7ed;
+  color: #127336;
+  background-color: #ebdbff;
   font-size: 4vw;
   text-align: center;
   position: relative;
   left: 1.5vw
 }
-ul {
-  background-color: #d5c7ed;
+ul.top {
+  color: #127336;
+  background-color: #ebdbff;
   list-style-type: none;
   overflow: hidden;
   text-align: center;
   font-size: 1.4vw;
 }
-li {
+li.top {
+  color: #127336;
   display: inline;
   padding: .5em;
   font-size: 2em;
@@ -32,13 +34,15 @@ li {
   text-align:center;
   align-content: center;
 }
-h6 {
-  color: black;
+
+.centeredHeader {
   text-align: center;
-  font-family: "Times New Roman", serif;
-  font-size: 18px;
-  margin: .5em;
 }
+
+h1 {
+  color: #127336;
+}
+
 #orbitals {
   resize: .8em;
   margin: 1em;
@@ -62,7 +66,7 @@ img {
 /* nav bar*/
 
 body {
- background-color: #ece6f7;
+ background-color: #ebdbff;
 }
 
 #top ul {
@@ -80,3 +84,4 @@ body {
   padding-left: 1vw;
   padding-right: 1vw;
 }
+
