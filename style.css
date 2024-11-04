@@ -9,7 +9,7 @@ title {
 }
 header {
   color: #127336;
-  background-color: #ebdbff;
+  background-color: #c9bcda;
   font-size: 4vw;
   text-align: center;
   position: relative;
@@ -71,7 +71,7 @@ body {
 
 ul #top {
   color: #127336;
-  background-color: #ebdbff;
+  background-color: #c9bcda;
   list-style-type: none;
   overflow: hidden;
   text-align: center;
@@ -83,7 +83,7 @@ li #top {
   color: #127336;
   display: inline;
   padding: .5em;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 /*Social Media*/
@@ -97,3 +97,22 @@ li #top {
   padding-right: 1vw;
 }
 
+/*Table of Contents*/
+
+#tableOfContents ul {
+  background-color: #c9bcda;
+  list-style-type: none;
+}
+
+#tableOfContents li {
+  color: #127336;
+  font-size: 1.75em;
+  padding: .5em;
+}
+
+#tableOfContents a {
+  text-decoration: none;
+  color: #127336;
+  font-size: 1.75em;
+  padding: .5em;
+}
