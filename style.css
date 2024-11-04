@@ -15,7 +15,7 @@ header {
   position: relative;
   left: 1.5vw
 }
-ul.top {
+#top ul {
   color: #127336;
   background-color: #ebdbff;
   list-style-type: none;
@@ -23,7 +23,7 @@ ul.top {
   text-align: center;
   font-size: 1.4vw;
 }
-li.top {
+#top li {
   color: #127336;
   display: inline;
   padding: .5em;
@@ -69,9 +69,21 @@ body {
  background-color: #ebdbff;
 }
 
-#top ul {
- position: relative;
- right: 1.5vw;
+ul #top {
+  color: #127336;
+  background-color: #ebdbff;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.4vw;
+  position: relative;
+  right: 1.5vw;
+}
+li #top {
+  color: #127336;
+  display: inline;
+  padding: .5em;
+  font-size: 2em;
 }
 
 /*Social Media*/
