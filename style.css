@@ -69,6 +69,10 @@ img {
 }
 /* nav bar*/
 
+nav {
+  background-color: #c9bcda;
+}
+
 ul #top {
   color: #127336;
   background-color: #c9bcda;
@@ -115,4 +119,8 @@ li #top {
 #tableOfContents a {
   text-decoration: none;
   color: #127336;
+}
+
+#tableOfContents h1{
+  background-color: #c9bcda;
 }
