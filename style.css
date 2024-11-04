@@ -1,3 +1,7 @@
+body {
+  background-color: #ebdbff;
+ }
+
 title {
   text-align: center;
 }
@@ -65,10 +69,6 @@ img {
 }
 /* nav bar*/
 
-body {
- background-color: #c9bcda;
-}
-
 ul #top {
   color: #127336;
   background-color: #c9bcda;
@@ -84,6 +84,7 @@ li #top {
   display: inline;
   padding: .5em;
   font-size: 2.5em;
+  background-color: #c9bcda;
 }
 
 /*Social Media*/
