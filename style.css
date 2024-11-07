@@ -17,15 +17,14 @@ header {
   font-size: 4vw;
   text-align: center;
   position: relative;
-  left: 1.5vw
 }
 #top ul {
   color: #127336;
-  background-color: #ebdbff;
   list-style-type: none;
   overflow: hidden;
   text-align: center;
   font-size: 1.4vw;
+  background-color: #ebdbff;
 }
 #top li {
   color: #127336;
@@ -71,6 +70,11 @@ img {
 
 #top {
   background-color: #c9bcda;
+}
+
+#top a {
+  text-decoration: none;
+  color: #127336;
 }
 
 nav {
@@ -127,4 +131,8 @@ li #top {
 
 #tableOfContents {
   background-color: #c9bcda;
+}
+
+#tableOfContents .centeredHeader {
+  font-size: 2.75vw;
 }
