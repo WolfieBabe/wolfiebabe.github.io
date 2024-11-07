@@ -4,6 +4,11 @@ let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight
 const iframes = document.querySelectorAll('iframe');
 
 iframes.forEach(iframe => {
-    iframe.width = vw / 3
-    iframe.height = vh * .8
+    if (vw >= vh) {
+        iframe.width = vw / 2
+        iframe.height = vh * .8   
+    } else {
+        iframe.height = vw / 2
+        iframe.width = vh * .8
+    }
 })
