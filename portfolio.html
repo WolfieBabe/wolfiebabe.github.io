@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
+  <head>  
     <title>Mattie's Website - Portfolio</title>
-    <meta charset="utf-8" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-src https://replit.com/@MattieSadler/">
-    
-	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="/style.css" />
-
-	  <!-- link the webpage's JavaScript file -->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="Content-Security-Policy" content="default-src 'self'; frame-src https://replit.com/@MattieSadler/"/>
+    <link rel="stylesheet" href="/style.css" />
     <script src="/iframeHandler.js" defer></script>
+    <script src="https://unpkg.com/pdfobject"></script>
   </head>
   
   <body>
@@ -102,7 +96,7 @@
     <div>
       <h1 id="protectTransRights">Protect Trans Rights</h1>
 
-      <p>This was my final project of the Girls Who Code SIP, the activist toolkit. It combined all of the previous lessons: HTML, CSS, and JS. It serves as a rudimentary introduction to campaigning for transgender rights. The website features a basic Home page; a resources page with an embedded twitter feed to <a href="https://twitter.com/tracktransbills?lang=en">@TrackTransBills</a> and a custom message generator; and a small about page.</p>
+      <p>This was my final project of the Girls Who Code SIP, the activist toolkit. It combined all of the previous lessons: HTML, CSS, and JS. It serves as a rudimentary introduction to campaigning for transgender rights. The website features a basic Home page; a resources page with an embedded twitter feed to <a href="https://twitter.com/tracktransbills?lang=en">@TrackTransBills</a> and a custom message generator as well as a small "about" page.</p>
   
       <iframe src="https://activist-toolkit-starter-code.mattiesadler.repl.co/home.html" title="Protect Trans Rights" >
         <p>Protect Trans Rights:
@@ -125,6 +119,18 @@
           Link: <a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKLUDNE7CjoMex-xw94gdx2tsPxFub3exDqjuP9TVPU961EftnXx5RWFRv-jU76XDucO1OuFAjVyCI/pubhtml?widget=true&amp;headers=false">href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKLUDNE7CjoMex-xw94gdx2tsPxFub3exDqjuP9TVPU961EftnXx5RWFRv-jU76XDucO1OuFAjVyCI/pubhtml?widget=true&amp;headers=false"</a>
         </p>
       </iframe> 
+    </div>
+
+    <br>
+
+    <div>
+      <h1 id="EDDFinal">Semester Grade and GPA Generator</h1>
+
+      <p>I started working on this project on May 9, 2022, and completed the first version of it 20 days later. Over the days following, I added the "GPA Generator" function and organized it with formatting. I then developed a few betas and completed the project on August 19th. This project includes an interactive final grade and weighted/unweighted generator. It also includes a minimum final grade needed for a specific grade and a color-coded chart showing which subject you should focus on studying. <a href=https://docs.google.com/spreadsheets/d/1h3J6IDpTuWBFxKkQW2EH-_0YghuhZyDD12h8Xm_t5PQ/copy>Link to copy the spreadsheet</a></p>
+  
+      <style>.pdfobject-container { height: 500px; border: 1px solid #ccc; }</style>
+      <div id="#EDDFinal-PDF"></div>
+      <script>PDFObject.embed("assets/EasyGlide-Razor.pdf", "#EDDFinal-PDF");</script>
     </div>
 
     <br>
