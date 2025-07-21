@@ -9,7 +9,7 @@ for (const pdfContainer of pdfContainers) {
     for (let i = iframes.length - 1; i >= 0; i--) {
         const iframe = iframes[i];
         if (pdfContainer.contains(iframe)) {
-            matches.push({pdfContainer, iframe });
+            matches.push({ pdfContainer, iframe });
             iframes.splice(i, 1);
         }
     }
