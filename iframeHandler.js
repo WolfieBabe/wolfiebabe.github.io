@@ -8,8 +8,9 @@ const matches = [];
 for (const pdfContainer of pdfContainers) {for (let i = iframes.length - 1; i >= 0; i--) {
     const iframe = iframes[i];
     if (pdfContainer.contains(iframe)) {
-    matches.push({ container, iframe });
-    iframes.splice(i, 1)}}}
+        matches.push({ container, iframe });
+        iframes.splice(i, 1)
+    }
 }  
     
 iframes.forEach(iframe => {
