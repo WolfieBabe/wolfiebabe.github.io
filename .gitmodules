@@ -64,3 +64,6 @@
 [submodule "Replit/2023 SPP/Empowering-Data-Mattie-S"]
 	path = Replit/2023 SPP/Empowering-Data-Mattie-S
 	url = https://github.com/WolfieBabe/Empowering-Data-Mattie-S
+[submodule "Replit/Misc/Graph"]
+	path = Replit/Misc/Graph
+	url = https://github.com/WolfieBabe/Graph
