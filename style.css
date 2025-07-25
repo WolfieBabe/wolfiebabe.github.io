@@ -111,28 +111,56 @@ li #top {
 }
 
 /*Table of Contents*/
-
-#tableOfContents ul {
-  background-color: #c9bcda;
-  list-style-type: none;
-  font-size: 2vw;
-}
-
-#tableOfContents li {
-  color: #127336;
-  font-size: 2vw;
-  padding: .5em;
-}
-
-#tableOfContents a {
-  text-decoration: none;
-  color: #127336;
-}
+/* Based on code from: https://stackoverflow.com/a/51971722 by OverLordGoldDragon (Retrieved: 7/22/2025) */
 
 #tableOfContents {
   background-color: #c9bcda;
+  padding: 1px
 }
 
-#tableOfContents .centeredHeader {
-  font-size: 2.75vw;
+#tocTop {
+  text-align: center;
+  font-size: 2.5vw;
 }
+
+#tableOfContents ul {
+  padding-left: 10px;
+  background-color: #c9bcda;
+}
+
+#tableOfContents li {
+  display: block;
+  padding-left: 25px;
+  padding-top: 2px;
+  font-size: 1.5vw;
+}
+
+#tableOfContents li li a {
+  background-color: #c9bcda;
+  color: #127336;
+}
+
+.tdropbtn {
+  background-color: #c9bcda;
+  color: #127336;
+  padding-left: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.tdropdown-content {
+  display: none;
+  position: relative;
+  background-color: #c9bcda;
+  min-width: 160px;
+  overflow: none;
+}
+
+.tdropdown-content a {
+  color: #127336;
+  padding: 2px 0px;
+  display: inline;
+}
+
+.tshow {display: block;}
