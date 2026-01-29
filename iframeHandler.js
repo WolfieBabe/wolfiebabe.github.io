@@ -12,8 +12,11 @@ if (vw >= vh) {
 }
 
 const iframes = Array.from(document.querySelectorAll('iframe')).concat(Array.from(document.querySelectorAll('.pdfobject-container'))).filter(element => !Array.from(document.querySelectorAll('iframe.pdfobject')).includes(element));
+const imgs = Array.from(document.querySelectorAll('webp'))
 
-iframes.forEach(element => {
+const alters = iframes.concat(imgs)
+
+alters.forEach(element => {
     if (element.tagName === 'IFRAME') {
         element.width = Math.round(modW);
         element.height = Math.round(modH);
