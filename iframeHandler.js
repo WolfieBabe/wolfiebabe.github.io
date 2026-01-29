@@ -37,4 +37,4 @@ function run_handling() {
     })
 };
 
-document.addEventListener("load",func);
+document.addEventListener("load",run_handling());
