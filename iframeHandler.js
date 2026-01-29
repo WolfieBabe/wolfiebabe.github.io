@@ -32,4 +32,4 @@ for (let i = 0; i < imgs.length; i++) {
     } else {
         imgs[i].style.width = "80vw";
     }
-});
+};
