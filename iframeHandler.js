@@ -28,7 +28,7 @@ iframes.forEach(element => {
 
 imgs.forEach(element => {
     if (vw >= vh) {
-        imgH = vh / 2;
+        element.style.height = 'vh / 2';
     } else {
         imgW = vw * .8;
     }
