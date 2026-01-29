@@ -12,7 +12,7 @@ if (vw >= vh) {
 }
 
 const iframes = Array.from(document.querySelectorAll('iframe')).concat(Array.from(document.querySelectorAll('.pdfobject-container'))).filter(element => !Array.from(document.querySelectorAll('iframe.pdfobject')).includes(element));
-const imgs = Array.from(document.querySelectorAll('webp'))
+const imgs = Array.from(document.querySelectorAll('img'))
 
 const alters = iframes.concat(imgs)
 
