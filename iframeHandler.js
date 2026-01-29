@@ -1,16 +1,16 @@
-let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+let avw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+let avh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 var modW
 var modH
 var imgW
 var imgH
 
-if (vw >= vh * .8) {
-    modW = vw / 2;
-    modH = vh * .8;
+if (avw >= aavh * .8) {
+    modW = avw / 2;
+    modH = avh * .8;
 } else {
-    modW = vw * .8;
-    modH = vh / 2;
+    modW = avw * .8;
+    modH = avh / 2;
 }
 
 const iframes = Array.from(document.querySelectorAll('iframe')).concat(Array.from(document.querySelectorAll('.pdfobject-container'))).filter(element => !Array.from(document.querySelectorAll('iframe.pdfobject')).includes(element));
@@ -27,9 +27,9 @@ iframes.forEach(element => {
 })
 
 imgs.forEach(element => {
-    if (vw >= vh) {
-        element.style.height = 'vh / 2';
+    if (avw >= avh) {
+        element.style.height = "50vh";
     } else {
-        imgW = vw * .8;
+        element.style.width = "80vh";
     }
 })
