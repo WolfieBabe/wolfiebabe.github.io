@@ -5,7 +5,7 @@ var modH;
 var iframes;
 var imgs;
 
-if (avw >= aavh * .8) {
+if (avw >= avh * .8) {
     modW = avw / 2;
     modH = avh * .8;
 } else {
@@ -16,7 +16,7 @@ if (avw >= aavh * .8) {
 function run_handling() {
 
     iframes = Array.from(document.querySelectorAll('iframe')).concat(Array.from(document.querySelectorAll('.pdfobject-container'))).filter(element => !Array.from(document.querySelectorAll('iframe.pdfobject')).includes(element));
-    imgs = Array.from(document.querySelectorAll('img'));
+    imgs = document.images;
     
     iframes.forEach(element => {
         if (element.tagName === 'IFRAME') {
@@ -28,11 +28,11 @@ function run_handling() {
         }
     })
     
-    imgs.forEach(element => {
+    for (let i = 0; i < imgs.length; i++) {
         if (avw >= avh) {
-            element.style.height = "50vh";
+            imgs[i].style.height = "50vh";
         } else {
-            element.style.width = "80vw";
+            imgs[i].style.width = "80vw";
         }
     })
 };
